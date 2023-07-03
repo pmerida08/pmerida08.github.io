@@ -4,7 +4,7 @@ This is a simple portfolio website showcasing the work of Pablo Mérida, a young
 
 ## Table of Contents
 
-- [Mi Portfolio](#mi-portfolio)
+- [Mi Portfolio](index.html)
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
   - [Installation](#installation)
