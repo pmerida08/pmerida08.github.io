@@ -48,13 +48,11 @@ main{
 
 .navbar{
     position: fixed;
-    top: 0;
-    left: 40%;
-    right: 40%;
+    top: 1%;
+    left: 20%;
+    right: 20%;
     text-align: center;
-    border-radius: 10px;
     z-index: 10;
-    backdrop-filter: blur(2px);
 }
 
 .navbar > ul {
@@ -118,10 +116,12 @@ header h2{
 }
 
 footer{
-    height: 5%; 
+    height: 3%; 
     background-color: var(--primary-300);
-    bottom: 1em;
-    width: 100%;
+    position: fixed;
+    left: 2.5%;
+    bottom: 0;
+    width: 95%;
     text-align: center;
     color: var(--bg-100);
     border-radius: 20px;
