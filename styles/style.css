@@ -21,18 +21,18 @@ body{
 }
 
 main{
+    position: static;
+    right: 9%;
+    top: 16%;
+    }
+
+.tags{
     border: 10px;
     border-radius: 10px;
     margin: 5% 5% 3% 5% ;
     padding: 5%;
     background-color: var(--bg-100);
     color: var(--text-100);
-}
-
-main > #about{
-    position: absolute;
-    right: 9%;
-    top: 16%;
 }
 
 .logos {
@@ -42,8 +42,8 @@ main > #about{
 }
 
 .logos img {
-    filter: brightness(0);
-    margin: 10px;
+    filter: grayscale(0);
+    margin: 7% 2% 8% 2%;
 }
 
 .navbar{
@@ -52,7 +52,7 @@ main > #about{
     left: 20%;
     right: 20%;
     text-align: center;
-    z-index: 0;
+    z-index: 10;
 }
 
 .navbar > ul {
@@ -83,6 +83,27 @@ main > #about{
     color: var(--accent-100);
 }
 
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .project {
+    margin-bottom: 2rem;
+    display: inline;
+    flex-basis: 45%;
+    /* How to space between projects */
+  }
+  
+  .project img {
+    display: inline;
+    border-radius: 10px;
+  }
+  
+  
 
 header h1{
     font-weight: bold;
