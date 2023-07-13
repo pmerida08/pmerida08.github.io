@@ -27,6 +27,9 @@ main{
     top: 16%;
     }
 
+p{
+    max-width: 75ch;
+}
 .tags{
     border: 10px;
     border-radius: 10px;
