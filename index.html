@@ -6,8 +6,8 @@
     <title>Mi Portfolio</title>
     <link rel="icon" type="image/x-icon" href="./img/logo.jpeg">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,200..900,0..1,-50..200">
-    <link rel="stylesheet" href="https://fontawesome.com/icons/html5?f=brands&s=solid&pc=%23ffffff">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,200..900,0..1,-50..200"> -->
+    <!-- <link rel="stylesheet" href="https://fontawesome.com/icons/html5?f=brands&s=solid&pc=%23ffffff"> -->
     <script src="script.js"></script>
     
 </head>
@@ -30,7 +30,7 @@
                     I'm a young boy attempting to learn about web development. Python, HTML, CSS is some of the languages I've just started to learn.
                 </p>
                 <p>
-                    One of the goals of my career as web developer is to not put limits on my knowledge and don't get afraid for developing anything.
+                    Nowadays, I'm just learning about news things like JavaScript or PHP :D
                 </p>
                 <div class="logos">
                     <img src="./img/python.png" alt="Python" width="9%" height="9%">
@@ -81,11 +81,13 @@
             <section class="contact">
                 <h2>CONTACT</h2> 
                 <form action="/action.php">
-                    <label for="email">Name:</label><br>
-                    <input type="text" id="name" name="name" ><br>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name: "><br>
                     <label for="email">Email:</label><br>
-                    <input type="text" id="email" name="email" ><br>
-                    <input type="button" value="Submit">
+                    <input type="text" id="email" name="email" placeholder="Enter your email: "><br>
+                    <label for="comments">Comments: </label><br>
+                    <textarea name="comments" id="comments" placeholder="Comment here..." cols="30" rows="10"></textarea>
+                    <button class="button button1">SUBMIT</button>
                 </form>   
             </section>
         </div>
