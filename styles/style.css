@@ -29,7 +29,7 @@ main{
 .tags{
     border: 10px;
     border-radius: 10px;
-    margin: 5% 5% 3% 5% ;
+    margin: 5% 5% 5% 5% ;
     padding: 5%;
     background-color: var(--bg-100);
     color: var(--text-100);
@@ -86,24 +86,31 @@ main{
 .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
+    justify-content: center;
+    text-align: center;
+}
   
-  .project {
-    margin-bottom: 2rem;
-    display: inline;
-    flex-basis: 45%;
-    /* How to space between projects */
-  }
-  
-  .project img {
-    display: inline;
+.project {
+    background-color: var(--bg-300);
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    padding: 17.5px;
+    margin: 2%;
+    display: inline-block;
+    flex: 1;
+    max-width: 200px;
+    
+}
+
+.project img {
     border-radius: 10px;
-  }
-  
-  
+    width: 100%;
+    height: 100%;
+}
+
+.group {
+    text-align: center;
+}
 
 header h1{
     font-weight: bold;
